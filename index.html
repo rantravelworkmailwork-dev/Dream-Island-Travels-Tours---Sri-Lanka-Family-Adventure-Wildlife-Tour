@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sri Lanka Family Adventure &amp; Wildlife Tour – Private Transport | 10 Days</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar site-nav sticky-top shadow-sm">
+    <div class="container-fluid container-lg d-flex justify-content-between align-items-center">
+      <a class="navbar-brand d-flex align-items-center gap-3 text-wrap m-0" href="#">
+        <img src="images/dream island logo.jpeg" alt="Dream Island Travels Logo" class="brand-logo" />
+        <div>
+          <span class="brand-title">Dream Island Travels &amp; Tours Pvt Ltd</span>
+          <span class="brand-subtitle">Tailor-Made Holidays across Sri Lanka</span>
+        </div>
+      </a>
+      <div class="d-none d-lg-block nav-motto">Your Dream, Our Destination</div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <p class="hero-kicker">PRIVATE TRANSPORT PACKAGE • SRI LANKA</p>
+      <h1>Sri Lanka Family Adventure &amp; Wildlife Tour</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-tagline">A relaxing family journey through Sri Lanka, combining beautiful beaches, wildlife experiences, scenic mountain views, cultural attractions, and nature adventures. Enjoy comfortable private transportation with a professional driver while exploring Sri Lanka at your own pace.</p>
+      <div class="hero-meta">
+        <span>Prepared for: Ms. Sona Pech</span>
+        <span>Market: Europe</span>
+        <span>9 Nights / 10 Days</span>
+        <span>November 21 &ndash; November 30</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+
+    <!-- INTRO -->
+    <section class="luxe-card accent">
+      <h3 class="section-title">Private Chauffeur-Driven Family Itinerary</h3>
+      <p class="section-sub">Tailored for 03 Adults &bull; November 21 &ndash; November 30</p>
+      <p class="intro-lead mb-0">We always aim to provide a safe, comfortable and memorable experience while exploring the beauty of Sri Lanka.</p>
+    </section>
+
+    <!-- KEY FACTS -->
+    <div class="row g-3 mb-4">
+      <div class="col-6"><div class="fact"><span class="fact-label">Duration</span><span class="fact-value">09N / 10D</span><span class="fact-note">Nov 21 &ndash; Nov 30</span></div></div>
+      <div class="col-6"><div class="fact"><span class="fact-label">Group Size</span><span class="fact-value">03 Adults</span><span class="fact-note">Family group</span></div></div>
+    </div>
+
+    <!-- MAP -->
+    <section class="luxe-card">
+      <h4 class="section-title">Your Route</h4>
+      <p class="section-sub">Tap any pin to explore destinations along your 10-day journey.</p>
+      <div id="sri-lanka-map"></div>
+    </section>
+
+    <!-- ITINERARY -->
+    <section class="mb-4">
+      <h4 class="mb-3">Day-by-Day Itinerary</h4>
+
+      <div class="accordion" id="itineraryAccordion">
+
+        <!-- Day 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#day1">
+              <span class="day-no">Day 01 (Nov 21)</span> Airport &ndash; Mirissa
+            </button>
+          </h2>
+          <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Meet your professional Dream Island Travels &amp; Tours chauffeur at Bandaranaike International Airport. Transfer directly to your hotel in Mirissa. Enjoy a relaxing day at the hotel after your journey.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Mirissa</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/mirissa.jpg" alt="Mirissa" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day2">
+              <span class="day-no">Day 02 (Nov 22)</span> Mirissa &ndash; Madu River Boat Safari &ndash; Galle Fort &ndash; Beach Experience &ndash; Mirissa
+            </button>
+          </h2>
+          <div id="day2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>After breakfast, travel to the Madu River and enjoy a relaxing boat safari through the beautiful mangroves. Continue to Galle Fort, explore its historic streets, and discover its rich history. Later, visit some beautiful beaches along the southern coast and enjoy the seaside atmosphere. In the evening, return to your hotel in Mirissa.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Mirissa</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/gallefort.png" alt="Madu River Boat Safari" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day3">
+              <span class="day-no">Day 03 (Nov 23)</span> Mirissa &ndash; Sinharaja Rainforest &ndash; Mirissa
+            </button>
+          </h2>
+          <div id="day3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>After breakfast, travel from Mirissa to the beautiful Sinharaja Rainforest. Enjoy a guided nature walk through this UNESCO World Heritage Site, exploring its rich biodiversity, tropical plants, and beautiful natural surroundings. After spending time in the rainforest, return to your hotel in Mirissa.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Mirissa</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/Peacock.png" alt="Sinharaja Rainforest" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day4">
+              <span class="day-no">Day 04 (Nov 24)</span> Mirissa &ndash; Whale Watching &amp; Beach Relaxation
+            </button>
+          </h2>
+          <div id="day4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>In the morning, enjoy an optional whale and dolphin watching tour to see blue whales and dolphins in their natural habitat. In the evening, relax and enjoy the beautiful beach atmosphere in Mirissa.</p>
+                  <p>Alternatively, you can visit Weligama Beach and enjoy a relaxing beach experience.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Mirissa</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/beach.jpg" alt="Whale Watching in Mirissa" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day5">
+              <span class="day-no">Day 05 (Nov 25)</span> Mirissa &ndash; Udawalawe Safari &ndash; Elephant Transit Home &ndash; Ella
+            </button>
+          </h2>
+          <div id="day5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Early morning, depart from Mirissa and travel to Udawalawe National Park. Enjoy an exciting morning jeep safari and experience Sri Lanka's beautiful wildlife in its natural habitat. Later, visit the Udawalawe Elephant Transit Home to learn about elephant conservation and rehabilitation. Continue your scenic journey to Ella, stopping at the beautiful Ravana Falls along the way to enjoy the natural surroundings and take photos. Arrive in Ella in the evening and check in to your hotel.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Ella</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/Elephant.png" alt="Udawalawe National Park" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day6">
+              <span class="day-no">Day 06 (Nov 26)</span> Ella &ndash; Mahamevnawa Buddhist Monastery &ndash; Ella
+            </button>
+          </h2>
+          <div id="day6" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>After breakfast, visit the peaceful Mahamevnawa Buddhist Monastery. Experience the calm and spiritual atmosphere, learn about Buddhist culture and traditions, and enjoy the beautiful natural surroundings. After the visit, return to your hotel in Ella.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Ella</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/mahamewna.jpg" alt="Mahamevnawa Buddhist Monastery" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 7 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day7">
+              <span class="day-no">Day 07 (Nov 27)</span> Little Adam’s Peak Sunrise &ndash; Nine Arch Bridge &ndash; Ella
+            </button>
+          </h2>
+          <div id="day7" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Early in the morning, hike to Little Adam’s Peak and enjoy the beautiful sunrise with breathtaking mountain views. After the hike, return to your hotel for breakfast and some relaxing time. In the afternoon, visit the famous Nine Arch Bridge, enjoy the beautiful scenery, and take memorable photos. Return to your hotel in Ella.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Ella</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/ninearch.jpg" alt="Little Adam's Peak" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 8 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day8">
+              <span class="day-no">Day 08 (Nov 28)</span> Relaxing Day &amp; Ella Town Exploration
+            </button>
+          </h2>
+          <div id="day8" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Enjoy a relaxing morning at your hotel. Later, explore Ella town, walk along its charming streets, visit local shops, enjoy a little shopping, and experience the friendly atmosphere of this beautiful mountain town. Spend the rest of the day at your own pace.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Ella</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/ellatown.jpeg" alt="Ella Town" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 9 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day9">
+              <span class="day-no">Day 09 (Nov 29)</span> Ella &ndash; Lipton’s Seat &ndash; Tea Plantation Experience
+            </button>
+          </h2>
+          <div id="day9" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Early in the morning, travel from Ella to the beautiful Lipton’s Seat viewpoint. Enjoy a scenic journey through some of Sri Lanka’s most beautiful tea plantations. For the final part of the journey, take a local tuk-tuk ride through the charming tea estate roads to reach Lipton’s Seat. Enjoy breathtaking panoramic views of the surrounding tea-covered mountains and experience the beauty of Sri Lanka’s world-famous tea country.</p>
+                  <p>Return to Ella after this memorable experience.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Ella</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/top_background.png" alt="Lipton's Seat" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 10 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day10">
+              <span class="day-no">Day 10 (Nov 30)</span> Ella &ndash; Scenic Train Journey to Nanu Oya &ndash; Nuwara Eliya &ndash; Tea Factory &ndash; Ramboda Falls &ndash; Colombo
+            </button>
+          </h2>
+          <div id="day10" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>After breakfast, enjoy one of the most beautiful train journeys in the world, travelling from Ella to Nanu Oya. Experience breathtaking views of lush green tea plantations, misty mountains, beautiful valleys, and charming villages along the way.</p>
+                  <p>Upon arrival at Nanu Oya Railway Station, meet your Dream Island Travels &amp; Tours chauffeur and continue your journey towards Colombo via Nuwara Eliya, a beautiful hill town known for its British colonial heritage and charming atmosphere.</p>
+                  <p>Along the way, explore Nuwara Eliya and visit a traditional tea factory to discover the secrets of Ceylon Tea production. Enjoy a tea-making experience and taste some of Sri Lanka’s world-famous Ceylon Tea.</p>
+                  <p>Later, visit the beautiful Ramboda Falls and enjoy the stunning natural scenery before continuing your journey to Colombo.</p>
+                  <p>Arrive in Colombo and check in to your hotel.</p>
+                  <div class="stay-info mt-2"><strong>Overnight Stay At:</strong> Colombo</div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="day-photo-grid">
+                    <img src="images/Train.png" alt="Scenic Train Journey" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TRANSPORT OPTIONS & PRICES -->
+    <section class="luxe-card">
+      <h4 class="section-title">Transportation &amp; Package Prices</h4>
+      <p class="section-sub">Regarding transportation, we have two options available: a Toyota Premio car or a Toyota Hiace van.</p>
+      <p>The Toyota Premio is also a comfortable option for your journey. If you can manage your luggage within the car's available space, travelling by car would be a good choice.</p>
+      <div class="row g-3 mb-3">
+        <div class="col-md-6"><div class="fact"><span class="fact-label">Toyota Premio Car</span><span class="fact-value">EUR 600</span><span class="fact-note">Per person</span></div></div>
+        <div class="col-md-6"><div class="fact"><span class="fact-label">Toyota Hiace Van</span><span class="fact-value">EUR 850</span><span class="fact-note">Per person</span></div></div>
+      </div>
+      <p class="mb-0">Please let me know which vehicle you prefer.</p>
+    </section>
+
+    <!-- INCLUSIONS / EXCLUSIONS -->
+    <section class="luxe-card">
+      <h4 class="mb-3">What’s Included &amp; Excluded</h4>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="package-box">
+            <h5>Included in the Package</h5>
+            <ul class="package-list">
+              <li>Private transportation</li>
+              <li>Fuel and highway tolls</li>
+              <li>Parking fees</li>
+              <li>Driver's accommodation and meals</li>
+              <li>All transportation-related expenses</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="package-box excluded">
+            <h5>Not Included</h5>
+            <ul class="package-list">
+              <li>Entrance tickets to attractions</li>
+              <li>Lipton’s Seat Tuk-Tuk ride</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADDITIONAL INFORMATION -->
+    <section class="luxe-card">
+      <h4 class="section-title mb-1">Additional Information</h4>
+      <p class="section-sub mb-4">Important details regarding your safari, train tickets and Lipton’s Seat.</p>
+
+      <div class="policy-stack">
+
+        <div class="policy-subcard">
+          <h5 class="policy-subcard-title"><span>01</span> Udawalawe Safari</h5>
+          <p>For an additional EUR 140, we can arrange a complete safari experience with an experienced safari driver. This includes:</p>
+          <ul class="package-list">
+            <li>Safari jeep</li>
+            <li>National Park entrance tickets for 3 adults</li>
+            <li>All applicable entrance taxes</li>
+          </ul>
+        </div>
+
+        <div class="policy-subcard">
+          <h5 class="policy-subcard-title"><span>02</span> Train Tickets</h5>
+          <p class="mb-0">Unfortunately, online train tickets are currently sold out for your travel dates. However, we can try to purchase tickets directly from the railway station early on the travel day. There may still be a chance to get tickets.</p>
+        </div>
+
+        <div class="policy-subcard">
+          <h5 class="policy-subcard-title"><span>03</span> Lipton’s Seat</h5>
+          <p class="mb-0">For the final part of the journey to Lipton’s Seat, we will take a local tuk-tuk to enjoy the beautiful tea plantations and scenic surroundings. Please note that the tuk-tuk charges are not included in the package.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+      <!-- FOOTER -->
+  <footer class="agency-footer">
+    <div class="container px-3">
+      <div class="footer-top-row">
+        <div class="d-flex align-items-center gap-3">
+          <img src="images/dream island logo.jpeg" alt="Dream Island Logo" class="footer-logo">
+          <div>
+            <h5>Dream Island Travels &amp; Tours Pvt Ltd</h5>
+            <span class="footer-sub">Tailor-Made Holidays across Sri Lanka</span>
+          </div>
+        </div>
+        <div class="footer-tagline text-md-end">
+          <span class="d-block footer-tagline-main">Culture &bull; Wildlife &bull; Adventures</span>
+          <span class="footer-tagline-sub">&ldquo;Your Dream, Our Destination&rdquo;</span>
+        </div>
+      </div>
+
+      <div class="row g-4 align-items-center justify-content-between">
+        <div class="col-lg-8">
+          <div class="d-flex flex-column gap-2">
+            <div class="d-flex align-items-start gap-2">
+              <span>📍</span>
+              <a href="https://maps.app.goo.gl/XyPVxmkMoir6SZHaA?g_st=awb" target="_blank" rel="noopener" class="footer-contact-text">357/1, Waththegedara, Vithikuliya, Sri Lanka</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span>✉️</span>
+              <a href="mailto:Info@dreamislandtravels.com" class="footer-contact-text">Info@dreamislandtravels.com</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span>🦉</span>
+              <a href="https://www.tripadvisor.co.uk/Attraction_Review-g293962-d34504009-Reviews-Dream_Island_Travels_Tours_Pvt_Ltd-Colombo_Western_Province.html" target="_blank" rel="noopener" class="footer-contact-text">TripAdvisor Reviews</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink:0;">
+                <path fill="#1877F2" d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.026 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.265h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+              </svg>
+              <a href="https://www.facebook.com/share/1CJgvuYZZX/" target="_blank" rel="noopener" class="footer-contact-text">Facebook</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink:0;">
+                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+              </svg>
+              <a href="https://maps.app.goo.gl/wErfwiuqsY8xPMfLA?g_st=awb" target="_blank" rel="noopener" class="footer-contact-text">Google</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 text-lg-end">
+          <div class="contact-call-card d-inline-block text-start w-100">
+            <span class="label">Contact Us</span>
+            <a href="tel:+94743935369" class="phone-link d-block">+94 74 393 5369</a>
+            <a href="tel:+94767070706" class="phone-link d-block">+94 76 707 0706</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">&copy; Dream Island Travels &amp; Tours Pvt Ltd. All rights reserved. | Reg. No. PV00301414</div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
